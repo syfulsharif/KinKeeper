@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Home, History, BarChart3 } from 'lucide-react';
-import logo from '../assets/logo.png';
+
 
 const Navbar = () => {
   return (
@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="KeenKeeper Logo" className="h-10 w-10 object-contain" />
-            <span className="text-2xl font-bold text-primary-dark tracking-tight">KeenKeeper</span>
+            <div><span className="text-2xl font-bold">Kin</span><span className="text-2xl  text-primary-dark tracking-tight">Keeper</span></div>
+            
           </Link>
 
           {/* Navigation Links */}

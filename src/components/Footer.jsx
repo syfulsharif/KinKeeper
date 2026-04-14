@@ -2,7 +2,7 @@ import React from 'react';
 import facebook from '../assets/facebook.png';
 import instagram from '../assets/instagram.png';
 import githubIcon from '../assets/twitter.png'; // Using twitter.png for Github/Social if needed or just social
-import logoXl from '../assets/logo-xl.png';
+
 
 const Footer = () => {
   return (
@@ -12,11 +12,10 @@ const Footer = () => {
           {/* Logo & Info */}
           <div className="flex flex-col items-center md:items-start space-y-4">
             <div className="flex items-center gap-3">
-              <img src={logoXl} alt="KeenKeeper" className="h-10 w-10 brightness-0 invert" />
-              <span className="text-2xl font-bold tracking-tight">KeenKeeper</span>
+              <span className="text-3xl font-bold tracking-tight">KinKeeper</span>
             </div>
             <p className="text-emerald-100 text-center md:text-left max-w-xs">
-              Keep your friendships alive and healthy with timely reminders and interaction tracking.
+              Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
             </p>
           </div>
 
