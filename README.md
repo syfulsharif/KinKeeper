@@ -1,6 +1,6 @@
-# 👥 KeenKeeper — Keep Your Friendships Alive
+# 👥 KinKeeper — Keep Your Friendships Alive
 
-**KeenKeeper** is a modern React application designed to help users maintain meaningful connections with their inner circle. In a busy world, it's easy to lose touch; KeenKeeper ensures you stay on track with reminders and a historical timeline of your interactions.
+**KinKeeper** is a modern React application designed to help users maintain meaningful connections with their inner circle. In a busy world, it's easy to lose touch; KinKeeper ensures you stay on track with reminders and a historical timeline of your interactions.
 
 ## 🚀 Technologies Used
 - **React.js (Vite)**
