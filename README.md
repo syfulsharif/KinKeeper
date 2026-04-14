@@ -2,6 +2,9 @@
 
 **KinKeeper** is a modern React application designed to help users maintain meaningful connections with their inner circle. In a busy world, it's easy to lose touch; KinKeeper ensures you stay on track with reminders and a historical timeline of your interactions.
 
+## 📌 Live Site
+<a href="https://kinkeeper.sharif.live/" target="_blank">Live Site</a>
+
 ## 🚀 Technologies Used
 - **React.js (Vite)**
 - **React Router DOM v6** (Navigation)
