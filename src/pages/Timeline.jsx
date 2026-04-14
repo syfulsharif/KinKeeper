@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import { useFriends } from '../context/FriendContext';
-import { Filter, Calendar, MessageSquare, Phone, Video, Search } from 'lucide-react';
+import { Calendar, MessageSquare, Phone, Video, History, Activity } from 'lucide-react';
 
-// Assets for reference (using Lucide for timeline icons for better clarity/consistency)
-import callIcon from '../assets/call.png';
-import textIcon from '../assets/text.png';
-import videoIcon from '../assets/video.png';
+
 
 const Timeline = () => {
   const { interactions } = useFriends();
@@ -47,12 +44,28 @@ const Timeline = () => {
       </div>
 
       {filteredInteractions.length === 0 ? (
-        <div className="text-center py-20 card bg-gray-50 border-dashed border-gray-200">
-          <History className="mx-auto text-gray-300 mb-4" size={48} />
-          <h3 className="text-lg font-bold text-gray-900 mb-2">No interactions logged yet</h3>
-          <p className="text-gray-500 max-w-xs mx-auto">
-            Check in with your friends from their profile page to see history here.
+        <div className="text-center py-24 card bg-white border-2 border-dashed border-gray-100 flex flex-col items-center justify-center animate-in fade-in zoom-in duration-700">
+          <div className="relative mb-8">
+            <div className="absolute inset-0 bg-primary-light/20 rounded-full blur-2xl animate-pulse"></div>
+            <div className="relative bg-white p-6 rounded-3xl shadow-xl ring-1 ring-gray-100 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+              <History className="text-primary-dark" size={64} strokeWidth={1.5} />
+            </div>
+          </div>
+          <h3 className="text-2xl font-black text-gray-900 mb-3 tracking-tight">Your Timeline is Empty</h3>
+          <p className="text-gray-500 max-w-sm mx-auto leading-relaxed mb-10">
+            You haven't logged any interactions yet. Head over to a friend's profile to record your first check-in!
           </p>
+          <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 w-full max-w-md">
+            <div className="flex items-center gap-4 text-left">
+              <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 flex-shrink-0">
+                <Activity size={24} />
+              </div>
+              <div>
+                <h4 className="font-bold text-gray-900">Pro Tip</h4>
+                <p className="text-xs text-gray-500">Regular check-ins keep your friendship health scores high and streaks alive.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ) : (
         <div className="relative space-y-8">
