@@ -1,16 +1,22 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a modern React application designed to help users maintain meaningful connections with their inner circle. In a busy world, it's easy to lose touch; KeenKeeper ensures you stay on track with reminders and a historical timeline of your interactions.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
+- **React.js (Vite)**
+- **React Router DOM v6** (Navigation)
+- **Tailwind CSS** (Styling & Responsiveness)
+- **Recharts** (Friendship Analytics)
+- **Context API** (Global State Management)
+- **Lucide React** (Icon System)
+- **React Toastify** (Notifications)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+1. **Interaction Timeline:** Log every call, text, or video chat with your friends. Features a chronological history with filtering options to review your engagement patterns.
+2. **Friendship Analytics:** Visual representation of your social habits using a Recharts Pie Chart. Track your "Friendship Health Score" to see who needs more attention.
+3. **Dynamic Status System:** Automatic visual indicators (On-Track, Almost Due, Overdue) based on your custom relationship goals and days since last contact.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📱 Responsive & Performant
+- Fully mobile-responsive 4-column grid layout.
+- Persistent state management using LocalStorage to ensure data survives page reloads.
+- Smooth loading animations and toast notifications for a premium user experience.
