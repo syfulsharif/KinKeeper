@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+    "email": "sarah.j@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["College", "Best Friend"],
+    "bio": "Best friend since freshman year. We share a love for indie music and local coffee shops.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+    "email": "m.chen@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["Work", "Tech"],
+    "bio": "Former colleague at TechNova. Great mentor and friend. Keen on hiking and marathon running.",
+    "goal": 14,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 3,
+    "name": "Alex Rodriguez",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+    "email": "alex.rod@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["Gym", "Neighborhood"],
+    "bio": "Met at the local community center. Shares interested in urban gardening and sustainability.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 4,
+    "name": "Emily Watson",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200",
+    "email": "emily.w@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["Family", "Cousin"],
+    "bio": "Favorite cousin. We grew up together and tell each other everything. Living in NYC now.",
+    "goal": 30,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+    "email": "david.kim@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["High School", "Travel"],
+    "bio": "Travel buddy from high school. We went on a backpacking trip across Europe 3 years ago.",
+    "goal": 21,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Martinez",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+    "email": "sophia.m@example.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["Photography", "Workshop"],
+    "bio": "Met during a photography workshop. incredibly talented landscape photographer.",
+    "goal": 10,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 7,
+    "name": "Jordan Lee",
+    "picture": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&q=80&w=200",
+    "email": "jordan.l@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["Gaming", "Online"],
+    "bio": "Competitive gaming teammate. We play together almost every night after work.",
+    "goal": 3,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 8,
+    "name": "Chloe Bennett",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200",
+    "email": "chloe.b@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["Yoga", "Peace"],
+    "bio": "Yoga instructor and a very calm soul. Always has the best advice for stress management.",
+    "goal": 14,
+    "next_due_date": "2026-04-08"
+  }
+]
